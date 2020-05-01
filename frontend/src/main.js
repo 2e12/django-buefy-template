@@ -9,6 +9,7 @@ import 'buefy/dist/buefy.css'
 Vue.use(Buefy)
 
 Vue.config.productionTip = false
+Vue.prototype.$apiServer = 'http://127.0.0.1:8000/'
 
 new Vue({
   router,
